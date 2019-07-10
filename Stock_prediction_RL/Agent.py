@@ -1,5 +1,5 @@
-from actor import Actor
-from critic import Critic
+from Actor import Actor
+from Critic import Critic
 import numpy as np
 from numpy.random import choice
 import random
