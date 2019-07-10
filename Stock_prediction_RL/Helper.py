@@ -12,7 +12,7 @@ def formatPrice(n):
 
 def getStockData(key):
     datavec = []
-    lines = open("data/" + key + ".csv", "r").read().splitlines()
+    lines = open("data/" + key + ".csv", "r", encoding='utf8').read().splitlines()
 
     for line in lines[1:]:
         datavec.append(float(line.split(",")[4]))
